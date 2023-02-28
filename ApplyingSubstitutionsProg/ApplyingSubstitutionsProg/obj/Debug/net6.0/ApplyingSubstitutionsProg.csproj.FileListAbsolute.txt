@@ -1,0 +1,15 @@
+C:\Users\AndrewKorzh\Desktop\Git\ApplyingSubstitutions\ApplyingSubstitutionsProg\ApplyingSubstitutionsProg\bin\Debug\net6.0\ApplyingSubstitutionsProg.exe
+C:\Users\AndrewKorzh\Desktop\Git\ApplyingSubstitutions\ApplyingSubstitutionsProg\ApplyingSubstitutionsProg\bin\Debug\net6.0\ApplyingSubstitutionsProg.deps.json
+C:\Users\AndrewKorzh\Desktop\Git\ApplyingSubstitutions\ApplyingSubstitutionsProg\ApplyingSubstitutionsProg\bin\Debug\net6.0\ApplyingSubstitutionsProg.runtimeconfig.json
+C:\Users\AndrewKorzh\Desktop\Git\ApplyingSubstitutions\ApplyingSubstitutionsProg\ApplyingSubstitutionsProg\bin\Debug\net6.0\ApplyingSubstitutionsProg.dll
+C:\Users\AndrewKorzh\Desktop\Git\ApplyingSubstitutions\ApplyingSubstitutionsProg\ApplyingSubstitutionsProg\bin\Debug\net6.0\ApplyingSubstitutionsProg.pdb
+C:\Users\AndrewKorzh\Desktop\Git\ApplyingSubstitutions\ApplyingSubstitutionsProg\ApplyingSubstitutionsProg\obj\Debug\net6.0\ApplyingSubstitutionsProg.csproj.AssemblyReference.cache
+C:\Users\AndrewKorzh\Desktop\Git\ApplyingSubstitutions\ApplyingSubstitutionsProg\ApplyingSubstitutionsProg\obj\Debug\net6.0\ApplyingSubstitutionsProg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AndrewKorzh\Desktop\Git\ApplyingSubstitutions\ApplyingSubstitutionsProg\ApplyingSubstitutionsProg\obj\Debug\net6.0\ApplyingSubstitutionsProg.AssemblyInfoInputs.cache
+C:\Users\AndrewKorzh\Desktop\Git\ApplyingSubstitutions\ApplyingSubstitutionsProg\ApplyingSubstitutionsProg\obj\Debug\net6.0\ApplyingSubstitutionsProg.AssemblyInfo.cs
+C:\Users\AndrewKorzh\Desktop\Git\ApplyingSubstitutions\ApplyingSubstitutionsProg\ApplyingSubstitutionsProg\obj\Debug\net6.0\ApplyingSubstitutionsProg.csproj.CoreCompileInputs.cache
+C:\Users\AndrewKorzh\Desktop\Git\ApplyingSubstitutions\ApplyingSubstitutionsProg\ApplyingSubstitutionsProg\obj\Debug\net6.0\ApplyingSubstitutionsProg.dll
+C:\Users\AndrewKorzh\Desktop\Git\ApplyingSubstitutions\ApplyingSubstitutionsProg\ApplyingSubstitutionsProg\obj\Debug\net6.0\refint\ApplyingSubstitutionsProg.dll
+C:\Users\AndrewKorzh\Desktop\Git\ApplyingSubstitutions\ApplyingSubstitutionsProg\ApplyingSubstitutionsProg\obj\Debug\net6.0\ApplyingSubstitutionsProg.pdb
+C:\Users\AndrewKorzh\Desktop\Git\ApplyingSubstitutions\ApplyingSubstitutionsProg\ApplyingSubstitutionsProg\obj\Debug\net6.0\ApplyingSubstitutionsProg.genruntimeconfig.cache
+C:\Users\AndrewKorzh\Desktop\Git\ApplyingSubstitutions\ApplyingSubstitutionsProg\ApplyingSubstitutionsProg\obj\Debug\net6.0\ref\ApplyingSubstitutionsProg.dll
