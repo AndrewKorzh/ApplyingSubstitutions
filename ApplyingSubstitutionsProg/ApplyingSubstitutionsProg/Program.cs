@@ -6,9 +6,70 @@ namespace ApplyingSubstitutionsProg
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("JustTest!");
+            execution_manager();
+        }
+
+
+        static public void execution_manager()
+        {
+            Console.WriteLine("Введите слово (Пустое слово - Enter):");
+            string word = Console.ReadLine();
+            var substitutions = entering_substitutions();
+            foreach (var substitution in substitutions)
+            {
+                substitution.Print();
+            }
+            var w = new WORD(word, substitutions);
+            w.applying_substitutions();
+
+
+        }
+        static public List<SUBSTITUTION> entering_substitutions()
+        {
+            Console.WriteLine("Введите подстановку(если хотите завершить ввод - просто нажмите Enter)");
+            Console.WriteLine("Для ввода завершающей подсстановки to начните с точки");
+            Console.WriteLine("Пустая подстановка - пробел");
+            var substitutions = new List<SUBSTITUTION>();
+            while (true)
+            {
+                Console.WriteLine("From:");
+                string from = Console.ReadLine();
+                if (from == "")
+                    break;
+                Console.WriteLine("To:");
+                string to = Console.ReadLine();
+                if (to == "")
+                    break;
+                bool is_it_fin = false;
+                if (to[0] == '.')
+                {
+                    is_it_fin = true;
+                    if (to.Substring(1, to.Length - 1) == " ")
+                    {
+                        to = "";
+                    }
+                    else to = to.Substring(1, to.Length - 1);
+                }
+                else
+                {
+                    if (to == " ")
+                        to = "";
+                }
+                if (from == " ")
+                    from = "";
+                substitutions.Add(new SUBSTITUTION(from, to, is_it_fin));
+            }
+            Console.WriteLine("Подстановки:");
+
+            return substitutions;
+
+
+
+
         }
     }
+
+
     class WORD
     {
         public StringBuilder word = new StringBuilder("");
@@ -99,7 +160,11 @@ namespace ApplyingSubstitutionsProg
 
 
 
-        class SUBSTITUTION
+
+
+    }
+
+    class SUBSTITUTION
     {
 
         public string from;
@@ -124,4 +189,3 @@ namespace ApplyingSubstitutionsProg
 
 
     }
-}
