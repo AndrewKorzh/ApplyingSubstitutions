@@ -6,24 +6,47 @@ namespace ApplyingSubstitutionsProg
     {
         static void Main(string[] args)
         {
-            execution_manager();
-        }
+
+            var words = new List<string>();
+            words.Add("bbaab");
+            words.Add("aabbbaa");
+            words.Add("bababab");
+            words.Add("aaaa");
+
+            words.Add("bbbbb");
+            words.Add("aabaabb");
+            words.Add("abbbbba");
+            words.Add("baab");
+
+            words.Add("bbbaaa");
+            words.Add("abbabba");
+            words.Add("abbbaaab");
+            words.Add("");
+
+            var substitutions = new List<SUBSTITUTION>();
+            substitutions.Add(new SUBSTITUTION("bb", "ba"));
+            substitutions.Add(new SUBSTITUTION("ba", "a"));
+            substitutions.Add(new SUBSTITUTION("a", ""));
+            substitutions.Add(new SUBSTITUTION("", "b", true));
 
 
-        static public void execution_manager()
-        {
-            Console.WriteLine("Введите слово (Пустое слово - Enter):");
-            string word = Console.ReadLine();
-            var substitutions = entering_substitutions();
             foreach (var substitution in substitutions)
             {
                 substitution.Print();
             }
-            var w = new WORD(word, substitutions);
-            w.applying_substitutions();
-
+            Console.WriteLine();
+            foreach (var wo in words)
+            {
+                Console.WriteLine("Начало:");
+                var w = new WORD(wo, substitutions);
+                w.applying_substitutions();
+                Console.WriteLine("-----Конец-----\n");
+            }
 
         }
+
+
+
         static public List<SUBSTITUTION> entering_substitutions()
         {
             Console.WriteLine("Введите подстановку(если хотите завершить ввод - просто нажмите Enter)");
@@ -189,3 +212,4 @@ namespace ApplyingSubstitutionsProg
 
 
     }
+}
